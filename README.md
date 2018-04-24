@@ -8,7 +8,7 @@ This project provides an example PowerShell script to the following actions:
 * Upload a file from the local file system to Box.
 * Get the SHA1 file hash before and after the upload to Box and ensure they're the same.
 * Add metadata to the file uploaded to Box with values in the SQL result set.
-* Move the successfully processed file to a "processed" folder
+* Move the successfully processed file to a "processed" folder.
 
 
 Installation Instructions
@@ -31,7 +31,7 @@ git clone https://github.com/kylefernandadams/box-powershell-example
     * [$DatabaseUsername](https://github.com/kylefernandadams/box-powershell-example/blob/master/box-powershell-exampe.ps1#L14)
     * [$DatabasePassword](https://github.com/kylefernandadams/box-powershell-example/blob/master/box-powershell-exampe.ps1#L15)
 
-    > CAUTION: Do not store your DB credentials in plaintext for production purposes. Please follow your organizations security guidelines and best practices. 
+    > CAUTION: Do not store your DB credentials in plaintext for production purposes. Please follow your organization's security guidelines and best practices. 
     > 
     > It is possible to get a `PSCredential` object and store it in an encrypted file using an example like the following.
     >
@@ -43,7 +43,7 @@ git clone https://github.com/kylefernandadams/box-powershell-example
     >
     > Get Password: ```$Password = $Credentials.GetNetworkCredential().Password ```
     >
-    > CAUTION...AGAIN: $Password is not encrypted at this point in time so you may want to leave it in the credential object so it stays encrypted in memory 
+    > CAUTION...AGAIN: $Password is not encrypted at this point in time so you may want to leave it in the credential object so it stays encrypted in memory. 
 
     * [$GetFilesQuery](https://github.com/kylefernandadams/box-powershell-example/blob/master/box-powershell-exampe.ps1#L16)
     * Modify the metadata retrieved from the [SQL result set](https://github.com/kylefernandadams/box-powershell-example/blob/master/box-powershell-exampe.ps1#L86). 
