@@ -73,7 +73,7 @@ Added box metadata: {   "siteId": "2402",   "videoTitle": "sample-video-4.mp4", 
 
 Disclaimer
 ----------
-This script provided in this project is an open source example and should not be treated as an officially supported product. Use at your own risk. If you encounter any problems, please log an [issue](https://github.com/kylefernandadams/box-powershell-example/issues).
+The script provided in this project is an open source example and should not be treated as an officially supported product. Use at your own risk. If you encounter any problems, please log an [issue](https://github.com/kylefernandadams/box-powershell-example/issues).
 
 
 License
