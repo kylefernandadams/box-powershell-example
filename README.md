@@ -13,13 +13,14 @@ This project provides an example PowerShell script to the following actions:
 
 Installation Instructions
 -------------------------
-1. Install the [BoxCLI](https://developer.box.com/v2.0/docs/box-cli).
-2. Create a new [metadata template](https://community.box.com/t5/How-to-Guides-for-Admins/Customizing-Metadata-Templates/ta-p/1671).
-3. Clone or download the [GitHub repository](https://github.com/kylefernandadams/box-powershell-example):
+1. Ensure that you're using a Box developer sandbox. You can sign up for a developer account [here](https://account.box.com/signup/o/default_developer_offer).
+2. Install the [BoxCLI](https://developer.box.com/v2.0/docs/box-cli).
+3. Create a new [metadata template](https://community.box.com/t5/How-to-Guides-for-Admins/Customizing-Metadata-Templates/ta-p/1671).
+4. Clone or download the [GitHub repository](https://github.com/kylefernandadams/box-powershell-example):
 ```
 git clone https://github.com/kylefernandadams/box-powershell-example
 ```
-4. Modify following variables in the [box-powershell-example.ps1](https://github.com/kylefernandadams/box-powershell-example/blob/master/box-powershell-exampe.ps1) file.
+5. Modify following variables in the [box-powershell-example.ps1](https://github.com/kylefernandadams/box-powershell-example/blob/master/box-powershell-exampe.ps1) file.
     * [$BaseFilePath](https://github.com/kylefernandadams/box-powershell-example/blob/master/box-powershell-exampe.ps1#L2)
     * [$ProcessedFilePath](https://github.com/kylefernandadams/box-powershell-example/blob/master/box-powershell-exampe.ps1#L3)
     * [$BoxBaseFolderId](https://github.com/kylefernandadams/box-powershell-example/blob/master/box-powershell-exampe.ps1#L6)
@@ -51,11 +52,11 @@ git clone https://github.com/kylefernandadams/box-powershell-example
     * Modify the [metadta key values](https://github.com/kylefernandadams/box-powershell-example/blob/master/box-powershell-exampe.ps1#L231) in the [Add-File-Metadata function](https://github.com/kylefernandadams/box-powershell-example/blob/master/box-powershell-exampe.ps1#L212). 
         * You can find the metadata property keys using the ```box metadata-template list ``` command.
 
-5. Run the PowerShell script
+6. Run the PowerShell script
 ```
 .\box-powershell-example.ps1
 ```
-6. Example output
+7. Example output
 ```
 PS C:\powershell-demo> .\box-powershell-example.ps1
 Found Box user: 385982796
